@@ -1,6 +1,10 @@
-# s3podcasts
+# S3 Podcasts Wordpress Plugin
 
-Wordpress Plugin to store podcasts in Amazon S3
+A simple plugin to upload podcasts to your Amazon S3 instance and use in your Wordpress blog.
+
+This is my first wordpress plugin developed to learn how to build WP Plugins. It needs a lot of improvements and maybe and MVC Layer to looks well, but it works :)
+
+Sorry for my bad English skills.
 
 ## Depedencies
 
@@ -10,7 +14,7 @@ This plugin requires AWS PHP SDK version v3 and it wasn't tested in another vers
 
 Each release of the AWS SDK for PHP ships with a zip file containing all of the classes and dependencies you need to run the SDK. Additionally, the zip file includes a class autoloader for the AWS SDK for PHP and all of its dependencies.
 
-To get started, you must download the zip file, unzip it into plugin folder (do not change the aws folder name), and include the autoloader: require_once('/aws/aws-autoloader.php');
+To get started, you must download the zip file, unzip it into plugin folder (do not change the aws folder name), and include the autoloader in the file s3podcasts.php file (line 41): require_once('/aws/aws-autoloader.php');
 
 Download link: http://docs.aws.amazon.com/aws-sdk-php/v3/guide/getting-started/installation.html#installing-via-zip
 
