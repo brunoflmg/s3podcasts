@@ -2,7 +2,7 @@
 
 A simple plugin to upload podcasts to your Amazon S3 instance and use in your Wordpress blog.
 
-This is my first wordpress plugin developed to learn how to build WP Plugins. It needs a lot of improvements and maybe and MVC Layer to looks well, but it works :)
+This is my first wordpress plugin developed to learn how to build WP Plugins. It needs a lot of improvements and maybe change the plugin to work in a MVC layer to looks well, but it works :)
 
 Sorry for my bad English skills.
 
@@ -29,7 +29,7 @@ If you do not have credentials yet, access your AWS account and create them foll
 
 ### Test under localhost (CURL certificate)
 
-To test this plugin in your localhost you need to follow the steps bellow:
+To test this plugin in your localhost you'll need to follow the steps bellow:
 
 1 - Access this link: http://curl.haxx.se/ca/cacert.pem 
 2 - Copy the entire page and save it in a: "cacert.pem"
